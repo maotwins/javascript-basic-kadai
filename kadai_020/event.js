@@ -5,7 +5,7 @@ const btn = document.getElementById('btn');
 btn.addEventListener('click', () => {
 
   // textというidをもつHTML要素を取得し、変数に代入する
-  let text = document.getElementById('text').textContent;
+  const text = document.getElementById('text');
   document.getElementById('text').textContent = 'ボタンをクリックしました';
 
 });
